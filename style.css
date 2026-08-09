@@ -81,6 +81,26 @@ body {
   display: block; 
 
 }
+.card-left {
+  background-color: #102736;
+  padding: 6px;
+  border-radius: 16px;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.12);
+  
+  height: calc(90vh - 60px); 
+  width: fit-content; 
+  box-sizing: border-box;
+  flex-shrink: 0; 
+}
+
+.card-left img {
+  
+  height: 100%; 
+  width: auto; 
+  object-fit: contain; 
+  display: block; 
+}
+
 .text-column-right {
   margin-left: 0; 
 }
