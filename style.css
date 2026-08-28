@@ -26,6 +26,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  flex: 1;
   gap: 50px; 
 }
 
